@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Cinzel Decorative', cursive; */
+}
+#hero-heading,#collection-heading,#Team-heading{
+  background: -webkit-linear-gradient( right,#FFFFFF, #88E9FC );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+#WhaleWallpaper{
+  width:480px;
+  height: 480px;
+  border: 2px solid #88E9FC;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+#poweredBy1{
+  width: 100%;
+  /*width: 30%px;*/
+  /*height: 70px;*/
+}
+#poweredBy2{
+  width: 100%;
+}
+#poweredBy3{
+  width: 100%;
+}
+#whale-pic{
+  /*border-radius: 15px;*/
+  /*border: 2px solid #88E9FC;*/
+  width: 368px;
+  height: 368px;
+}
+
+#team-pic {
+  width: 210px;
+  height: 210px;
+}
+#icons{
+  margin: 10px;
+}
+#left{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#group1{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+#group2{
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* height: 100%; */
+  z-index: -1;
+}
+#bottom{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+#line1{
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  z-index: -1;
+  width: 250px;
+}
+#line2{
+  position: absolute;
+  left: 0;
+  top: 57%;
+  z-index: -1;
+  width: 250px;
+}
+span{
+  z-index: -1;
+}
+
+@media only screen and (max-width:65em) {
+
+  .crazy-whale {
+    font-size: 110px;
+  }
+
+  #right{
+    right: -50px;
+    top: -190px;
+  }
+  #left{
+    left: -180px;
+  }
+
+  #group1{
+    left: -151px !important;
+  }
+  #group2 {
+    right: -70px !important;
+  }
+
+  .crazy-whale {
+    line-height: 135px !important;
+  }
+
+  .our-partners-top-div {
+    padding-bottom: 10rem !important;
+  }
+  #whale-pic {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  #line2{
+    top:72.89%;
+  }
+}
+
+@media only screen and (max-width:49em){
+
+  .team {
+    font-size: 32px !important;
+  }
+
+  .team-container {
+    margin-top: 1rem !important;
+  }
+
+  .connect-button {
+    font-size: 14px !important;
+  }
+
+  .crazy-whale {
+    font-size: 80px;
+  }
+
+  .claim-my-whale {
+    font-size: 18px !important;
+    height: 64px;
+  }
+
+  .crazy-whale-text {
+    font-size: 17px !important;
+  }
+
+  .collection {
+    font-size: 32px !important;
+    letter-spacing: 1px;
+    line-height: 43.14px;
+    padding: 1rem 0;
+  }
+
+  .check-it-out {
+    font-size: 14px !important;
+    height: 46px !important;
+    width: 142px;
+    line-height: 30px;
+  }
+
+  #line1 {
+    width: 30%;
+  }
+
+  #line2 {
+    width: 20%;
+    top: 58.29%;
+    left: -40px;
+  }
+
+  .our-partners {
+    font-size: 32px !important;
+  }
+
+  .our-partners-top-div {
+    padding: 0 !important;
+  }
+
+  .our-partners-container {
+    padding-bottom: 0;
+    padding-top: 0;
+    /*margin-top: 60px;*/
+  }
+}
+
+@media only screen and (max-width:24.4375em){
+
+  .team {
+    font-size: 32px !important;
+  }
+
+  .team-container {
+    margin-top: 1rem !important;
+  }
+
+  .connect-button {
+    font-size: 14px !important;
+  }
+
+  .crazy-whale {
+    font-size: 80px;
+    line-height: 107.84px !important;
+  }
+
+  .claim-my-whale {
+    font-size: 18px !important;
+    height: 64px;
+  }
+
+  .crazy-whale-text {
+    font-size: 17px !important;
+  }
+
+  .collection {
+    font-size: 32px !important;
+    letter-spacing: 1px;
+    line-height: 43.14px;
+    padding: 1rem 0;
+  }
+
+  .check-it-out {
+    font-size: 14px !important;
+    height: 46px !important;
+    width: 142px;
+    line-height: 30px;
+  }
+
+  #line1 {
+    width: 30%;
+  }
+
+  #line2 {
+    width: 20%;
+    top: 58.29%;
+    left: -40px;
+  }
+
+  .our-partners {
+    font-size: 32px !important;
+  }
+
+  .our-partners-top-div {
+    padding: 0 !important;
+  }
+
+  .our-partners-container {
+    padding-bottom: 0;
+    padding-top: 0;
+    /*margin-top: 60px;*/
+  }
+}
+
+@media only screen and (max-width:850px){
+  #model{
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width:500px){
+  #model{
+    width: 345px;
+  }
+}
+
+@media only screen and (max-width:905px){
+/*#hero-down{*/
+/*  flex-direction: column-reverse;*/
+/*}*/
+#hero-right{
+  width: 100%;
+}
+#hero-left{
+  width: 100%;
+}
+}
+
+
+
+@media only screen and (max-width:1070px) {
+  #WhaleWallpaper{
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width:470px) {
+  #WhaleWallpaper{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:883px){
+  #collection-heading{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:747px){
+  #coll-up{
+    justify-content: center;
+    flex-direction: column;
+
+  }
+}
+
+@media screen and (max-width:850px){
+  #left,#right,#group1,#group2,#bottom{
+    display: none;
+  }
+
+  #teamBg {
+    display: none !important;
+  }
+}
+
+.shake {
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.zoom {
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.zoom:hover {
+  transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.shake:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
